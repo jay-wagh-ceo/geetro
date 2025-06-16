@@ -43,19 +43,19 @@ export default function Navbar() {
             }}
           />
         </Link>
-        
+        {/* Home Icon */}
+        <Button asChild variant="ghost" size="icon" className="hover-scale">
+          <Link to="/home">
+            <Home size={22} className="text-primary" />
+          </Link>
+        </Button>
         {/* User icon next to logo and home */}
         {user && (
           <div className="ml-2">
             <UserDropdown />
           </div>
         )}
-         {/* Home Icon */}
-        <Button asChild variant="ghost" size="icon" className="hover-scale">
-          <Link to="/home">
-            <Home size={22} className="text-primary" />
-          </Link>
-        </Button>
+         
       </div>
       <div className="flex gap-4 items-center">
         {user ? (
