@@ -147,7 +147,7 @@ body {
   min-height: 100vh;
   background: radial-gradient(at 61% 8%, #24407a 0, transparent 52%),
               linear-gradient(120deg, #171B27 61%, #252D3A 100%);
-}
+} 
 
 /* Hide scrollbars for all browsers */
 .no-scrollbar {
